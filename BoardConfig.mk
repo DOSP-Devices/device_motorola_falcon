@@ -47,7 +47,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_CACHEIMAGE_PARTITION_SIZE := 694288384
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/motorola/falcon/system.prop
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
