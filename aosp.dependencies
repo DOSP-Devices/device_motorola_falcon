@@ -4,21 +4,25 @@
     "target_path": "device/motorola/msm8226-common"
   },
   {
-    "repository": "CyanogenMod/android_kernel_motorola_msm8226",
+    "repository": "LineageOS/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
     "remote": "github",
     "branch": "cm-14.1"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_motorola",
-    "target_path": "vendor/motorola",
-    "remote": "github",
-    "branch": "cm-14.1"
+    "repository": "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_qcom_binaries",
     "target_path": "vendor/qcom/binaries",
     "remote": "github",
     "branch": "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "cm-14.1"
   }
 ]
